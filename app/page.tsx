@@ -56,7 +56,7 @@ export default function Home() {
         className="flex flex-col-reverse md:flex-row items-center justify-around text-center md:text-left py-20 px-6"
       >
         <section className="flex flex-col items-center justify-center text-center py-20">
-          <h1 className="text-6xl font-bold mb-4">Hello, I’m Yousuf!</h1>
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight">Hello, I’m Yousuf!</h1>
           <p className="text-xl text-gray-700 max-w-2xl">
             I’m a passionate developer specializing in web development and
             graphic design. Let’s build something amazing together.
