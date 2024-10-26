@@ -56,35 +56,21 @@ export default function Home() {
         id="home"
         className="flex flex-col-reverse md:flex-row items-center justify-around text-center md:text-left py-20 px-6"
       >
-        <div className="md:w-1/2 space-y-6">
-          <h1 className="text-6xl font-bold leading-tight tracking-tight">
-            Hello, I’m Yousuf!
-          </h1>
-          <p className="text-lg text-gray-700 max-w-lg">
-            I’m a passionate developer with a focus on modern web design and
-            graphic artistry. Together, we can bring your vision to life.
+        <section className="flex flex-col items-center justify-center text-center py-20">
+          <h1 className="text-6xl font-bold mb-4">Hello, I’m Yousuf!</h1>
+          <p className="text-xl text-gray-700 max-w-2xl">
+            I’m a passionate developer specializing in web development and
+            graphic design. Let’s build something amazing together.
           </p>
           <div className="mt-8">
             <a
               href="#projects"
-              className="px-8 py-3 bg-black text-white rounded-full shadow-lg hover:bg-opacity-90 transition duration-300 transform hover:scale-105"
+              className="px-6 py-3 bg-gray-800 text-white rounded-full shadow hover:bg-gray-900 transition"
             >
               View My Work
             </a>
           </div>
-        </div>
-
-        <div className="md:w-1/2 mb-12 md:mb-0 flex justify-center">
-          <div className="w-3/4 h-90 overflow-hidden">
-            <Image
-              src={man}
-              alt="Your Name"
-              width={400}
-              height={200}
-              className="rounded-lg"
-            />
-          </div>
-        </div>
+        </section>
       </section>
       <section id="about" className="bg-gray-100 py-16">
         <div className="container mx-auto px-6 md:px-12 lg:px-24 text-center">
