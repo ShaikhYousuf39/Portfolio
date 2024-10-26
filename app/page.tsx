@@ -2,7 +2,6 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import man from "../public/man.png";
 import pro1 from "../public/project1.png";
 import pro2 from "../public/project2.png";
 import pro3 from "../public/project3.png";
