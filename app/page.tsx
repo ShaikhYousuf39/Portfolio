@@ -64,7 +64,7 @@ export default function Home() {
           <div className="mt-8">
             <a
               href="#projects"
-              className="px-3 py-2 md:px-6 md:py-3 text-base md:text-large bg-gray-800 text-white rounded-full shadow hover:bg-gray-900 transition"
+              className="px-4 py-3 md:px-6 md:py-3 text-base md:text-large bg-gray-800 text-white rounded-full shadow hover:bg-gray-900 transition"
             >
               View My Work
             </a>
