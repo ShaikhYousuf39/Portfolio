@@ -314,23 +314,24 @@ export default function Home() {
           </div>
           <div>
             <h3 className="text-2xl font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="#about" className="hover:text-white">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="hover:text-white">
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-white">
-                  Contact
-                </a>
-              </li>
-            </ul>
+            <ul className="space-y-2 text-gray-400 md:space-y-0 md:flex md:space-x-4">
+  <li>
+    <a href="#about" className="hover:text-white">
+      About
+    </a>
+  </li>
+  <li>
+    <a href="#projects" className="hover:text-white">
+      Projects
+    </a>
+  </li>
+  <li>
+    <a href="#contact" className="hover:text-white">
+      Contact
+    </a>
+  </li>
+</ul>
+
           </div>
 
           <div>
